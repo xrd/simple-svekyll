@@ -1,0 +1,6 @@
+root
+build
+config/
+node_modules
+*~
+yarn-error.log

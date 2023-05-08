@@ -1,0 +1,17 @@
+{
+  "name": "simple-svekyll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "^18"
+  },
+  "dependencies": {
+    "@observablehq/plot": "^0.6.6",
+    "cheerio": "^1.0.0-rc.12",
+    "svekyll-cli": "^0.0.33"
+  },
+  "scripts": {
+    "build": "mkdir -p config && yarn svekyll-cli && mv build/page/0/index.html build/."
+  }
+}

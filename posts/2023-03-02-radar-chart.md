@@ -1,11 +1,10 @@
 ---
-title: "radar chart"
+title: "chart"
 published: true
 date: 2023-03-02
 ---
 
 <script>
- import { onMount } from 'svelte';
  import * as Plot from '@observablehq/plot';
  let ref;
  
